@@ -1,0 +1,37 @@
+/* FOGLIO DI STILE */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style:none;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: flex-start;
+}
+
+div {
+  margin: 20px;
+}
+
+li {
+  text-align: center;
+  margin: 10px 0;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.grey{
+  color: grey;
+}
